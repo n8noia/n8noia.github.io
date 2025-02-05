@@ -1,0 +1,183 @@
+
+/*Importing font*/
+@font-face {
+  font-family: 'Amarante';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/amarante/v8/xMQXuF1KTa6EvGx9bp--AXvwmA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Amarante';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/amarante/v8/xMQXuF1KTa6EvGx9bp-wAXs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Caesar Dressing';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/caesardressing/v9/yYLx0hLa3vawqtwdswbotmK4vrRHdrz7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Aref Ruqaa';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/arefruqaa/v12/WwkbxPW1E165rajQKDulIIcoVQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+	box-sizing: border-box;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	font-weight: 600;
+	padding-left: 0px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+	font-family: 'Caesar Dressing';
+  	letter-spacing: .2rem;
+  	padding-top: 15px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin-bottom: 0px !important;
+}
+
+h1 .caption {
+	font-family: 'Caesar Dressing';
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Amarante';
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+img {
+	padding: 25px 25px 25px 25px;
+	max-width: 100%;
+}
+
+/* Styling for list buttons */
+
+li a:hover {
+	background-color: rgba(30, 60, 0, 1);
+}
+
+
+p {
+	font-family: 'Aref Ruqaa';
+	font-weight: 400;
+	font-size: 18px;
+	padding: 0px 25px 15px 25px;
+}
+
+p a {
+	
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+/* Background image for body */
+.background {
+	background: rgba(255, 255, 255, 0.7);
+	position: relative;
+}
+
+.background:before {
+	content: '';
+	background: url('images/homeBackground.jpg') no-repeat center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+
+.emph {
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+
+.headingBanner {
+	background: rgba(255, 255, 255, 0.4);
+	position: relative;
+	line-height: 50px;
+	padding-top: 75px;
+	padding-left: 10px;
+	height: 250px;
+	font-size: 60px;
+	vertical-align: center;
+}
+
+.headingBanner:before {
+	content: '';
+	background: url('images/Banner2.jpg');
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+/* Character Sheet list reference style */
+
+.charSheetRef li{
+	font-family: Amarante;
+	font-size: 30px;
+	padding: 15px 25px 15px 25px;
+	display: block;
+	text-align: left;
+}
+
+.charSheetCaption {
+	font-family: Aref Ruqaa;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+/* Class Type Table Style Sheet */
+
+.classTypes {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.classTypes th, td{
+	font-family: Amarante;
+	font-size: 15px;
+	border: 1px solid black;
+	padding: 7px 10px 15px 10px;
+}
+
+
+/*Styling each "character sheet" on each page*/
+.characterSheet{
+	float: right;
+	min-width: 500px;
+	padding: 25px 25px 25px 25px;
+}
+

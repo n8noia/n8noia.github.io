@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.css">
+
+  <title>LotO: Equipment</title>
+</head>
+<body>
+
+<!-- Simple heading with background implemented in "headingBanner" class -->
+<div class="jumbotron">
+  <h1 class = "headingBanner">Library of the Owlbear
+  <br> <span class="caption d-none d-sm-none d-md-block">DND Character Generation guide</span></h1>
+</div>
+
+<!-- Navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <ul class="navbar-nav">
+      <li>
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li>
+        <a class="nav-link" href="CharSheet.html">Character Sheet</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Race.html">Race</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Class.html">Class</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Abilities.html">Abilities</a>
+      </li>
+      <li>
+        <a class="active nav-link" href="Equipment.html">Equipment</a>
+      </li>
+    </ul>
+</nav>
+
+
+<!-- Class background adds a faint background for the entire page -->
+<div class="background">
+  <!-- Basic HTML with bootstrap grid system applied. General idea for this page and the others is the user should be able to refer to the Character sheet labelled on top and fill out the necessary boxes. Once again not using Bootstrap grid due to text wrapping. -->
+  <div class="row">
+    <div class="col-lg-6">
+
+      <h2 style="padding-top: 15px;">Equipment: You're telling me this costs money?</h2>
+
+      <p>Throughout your campaign, you will encounter various weapons, armor, and magical items that aid you throughout your campaign. But your character has to start somewhere, and hopefully they aren't empty handed. Each piece of equipment comes with their own stats and modifiers to assist you on your adventure.
+      </p>
+
+      <h2>Character Sheet Check!</h2>
+
+      <p>When you first make your character, most of the equipment you will receive comes from your <a href="Class.html">class</a> and background. When you choose a background from the Player's Handbook, it will come with extra proficiencies and equipment so make sure you take those and write them down. Another thing to take note of before you start reading this section is your Armor Class. This will be largely determined by your armor, with some armors also adding your Dexterity modifier. For the most part, write down all of the equipment you received into the box labelled equipment as well as any money you have. <span class="emph">Money in DND is counted in Copper pieces (CP), Silver Pieces (SP), Electrum Pieces (EP), Gold Piece (GP), and Platinum Pieces (PP).</span> Conversion Rates: 1 SP = 10 CP, 1 EP = 50 CP, 1 GP = 100 GP, 1 PP = 1000 CP. 
+      </p>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="characterSheet" src="../images/CharacterSheets/CharacterSheetEqp.png">
+    </div>
+
+  </div>
+
+    <img style="clear: both; float: left; max-width: 50%; padding: 25px 25px 10px 25px" src="../images/WeaponsTable.jpg">
+
+    <h2 style="clear: right;">Weapons: For swinging at things</h2>
+
+    <p>There are several ways to injure a person, and many rules behind these methods. In general, <span class="emph">when you attack something,</span> there are two different rolls: the attack roll and the damage roll. To begin with, you have to determine whether or not you actually hit with your weapon. The <span class="emph">attack roll</span> is a d20 roll that adds the appropriate modifier and proficiency if you are proficient in that weapon. That number is contested against the target's Armor Class (more on that later). <span class="emph">Unless they have the Finesse property, Melee weapons use the Strength modifier and ranged weapons use the Dexterity modifier.</span> Once it is determined that you hit the target, a damage roll ensues. The <span class="emph">damage roll</span> is determined by the number in the damage column of your weapon. You will add the appropriate modifier to your damage roll as well, but NOT your proficiency. There are several keywords to understand if you are to utilize your weapon properly.</p>
+    <p><span class="emph">Martial vs Simple Weapons:</span> To be succint, simple weapons do not require as much training as martial weapons do. Certain classes allow you to be proficient in all simple or all martial weapons, so this is the main distinction that matters in the scope of playing DND.
+    </p>
+
+    <p><span class="emph">Damage:</span> The damage you deal to an enemy is determined by what weapon you are using. Some enemies are also resistant to a specific damage type (bludgeoning, piercing, etc). <span class="emph">On your character sheet is a box labelled Attacks & Spellcasting.</span> In that box you should write down your main weapon as well as the damage/damage type it does. In the box labelled ATK BONUS, you can write down the number you add to your attack rolls.
+    </p>
+
+    <p><span class="emph">Melee Properties:</span> These properties are vital to understanding what weapons your class can or can't use, as well as what ability modifier you should use when you roll damage. A <span class="emph">Finesse</span> weapon can use either Strength or Dexterity when calculating attacks and damage, but these modifiers must be the same for both rolls. A <span class="emph">Versatile</span> weapon can be used with either one or two hands (the number in parentheses is the damage for a two handed attack). <span class="emph">Light</span> weapons allow you to equip one in each hand. <span class="emph">Heavy</span> weapons are too bulky for small sized creatures to use, meaning they have disadvantage when attacking with a heavy weapon. A <span class="emph">Thrown</span> weapon can be thrown as a ranged weapon (see more about ranged weapons below).
+    </p>
+
+    <p style="clear: both;"><span class="emph">Ranged Properties:</span> Ranged weapons may require <span class="emph">Ammunition,</span> but it's up to the DM to require you to keep track of it or not. The smaller number in the <span class="emph">Range</span> property determines how far you can shoot without disadvantage. If your range exceeds the smaller number, you may still shoot, but it will impose disadvantage. If your range exceeds the larger number you won't be able to hit at all. Weapons with the <span class="emph">Loading</span> property can only be fired once a turn, regardless of how many attacks a character has.
+    </p>
+
+    <img style="float:right; max-width: 50%; padding: 25px 25px 25px 25px;"src="../images/ArmorTable.png">
+
+    <h2>Armor: For when someone swings a weapon at you</h2>
+
+    <p>Armor is a little bit simpler than weapons. The only special property you have to worry about is if your armor imposes a disadvantage to stealth checks or not. <span class="emph">Reminder about disadvantage:</span> When rolling with disadvantage, you roll the same dice twice and take the lesser result. Your <span class="emph">Armor Class</span> is determined by the number under the Armor Class (AC) section. When you are attacked, the enemy will roll an attack roll against your Armor Class. If that roll meets or exceeds your Armor Class, you will take damage.
+    </p>
+
+<footer>
+  <p>DKT Studios</p>
+  <p><a href="mailto:dialekt.esp@gmail.com">dialekt.esp@gmail.com</a></p>
+  <p>Copyright &#169 @2020 DKT Studios All Rights Reserved</p>
+</footer>
+
+
+
+</div>
+
+</body>
+</html>

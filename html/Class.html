@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.css">
+
+  <title>LotO: Class</title>
+</head>
+<body>
+
+<!-- Simple heading with background implemented in "headingBanner" class -->
+<div class="jumbotron">
+  <h1 class = "headingBanner">Library of the Owlbear
+  <br> <span class="caption d-none d-sm-none d-md-block">DND Character Generation guide</span></h1>
+</div>
+
+<!-- Navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <ul class="navbar-nav">
+      <li>
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li>
+        <a class="nav-link" href="CharSheet.html">Character Sheet</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Race.html">Race</a>
+      </li>
+      <li>
+        <a class="active nav-link" href="Class.html">Class</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Abilities.html">Abilities</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Equipment.html">Equipment</a>
+      </li>
+    </ul>
+</nav>
+
+
+<!-- Class background adds a faint background for the entire page -->
+<div class="background">
+ <!-- Basic HTML with bootstrap grid system applied. General idea for this page and the others is the user should be able to refer to the Character sheet labelled on top and fill out the necessary boxes. -->
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>Class: What is your true calling?</h2>
+
+      <p>Like most RPG's, DND has several classes that you can pick from, as well as various subclasses to help shape your combat style. Choosing a class determines your character's specialties, such as a fighter who can fight with any weapon, or a wizard who specializes in buffing his allies. Your class also gives your character special abilities that can be activated in and out of combat. Once you pick your class, you will be filling out a lot of info in your character sheet, so get your pencils ready! In the <span class="emph">"12 Classes To Choose From..."</span> section, I give a brief synopsis of what each class is like. If you are having trouble picking a class feel free to learn more about each class there.
+      </p>
+
+      <h2>Character Sheet Check!</h2>
+
+      <p>There is a lot to fill out on this page! You will be writing down your <span class="emph">proficiency bonus, saving throws,</span> and your <span class="emph">class & level</span>. You will also have partially filled out your <span class="emph">skills</span> and <a href="Equipment.html">equipment</a>, and written down the necessary <span class="emph">class features</span>. By the time you finish reading this page, you should be familiar with each of these areas. Make sure that all of your check marks are completely filled out and you have written something in the boxed in areas.
+      </p>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="characterSheet" src="../images/CharacterSheets/CharacterSheetClass.png">
+    </div>
+    
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>Important Information About Your Class</h2>
+
+      <p>A level 1, you can start reading on the page that has the <span class="emph">Class Features</span> section of your class. There you will generate your <span class="emph">HP, proficiencies,</span> and <span class="emph">starting equipment.</span> At level 1, your HP is equal to the maximum of your hit dice plus your Constitution modifier. For example, if I am a Bard and I have a Constitution modifier of +1, because my hit dice is 1d8, my starting HP is 9. 
+      <br>
+      You will then choose your <span class="emph">proficiencies</span> and <span class="emph">saving throws</span> (more on proficiencies and saving throws <a href="Abilities.html">here</a>). Basically, proficiencies are skills that your character is an expert in. If you are proficient in a skill, you get a bonus when rolling for that skill. Your <span class="emph">proficiency bonus</span> increases when you hit a certain level (see the table on the right).
+      <br>
+      Lastly is the equipment. This is your starting equipment and what you will be using once the adventure begins  (more on equipment <a href="Equipment.html">here</a>)!
+      <br>
+      The table on the right is your class level table. Every time you level up, you can either roll your <span class="emph">hit dice</span> to gain HP or take the average (it's more fun to roll, just trust me!). After you roll you add your <span class="emph">Constitution modifier</span> again to your total. Another example, let's say I leveled up my Bard to level 2. This time I will roll my d8 and add my Constitution modifier to it (+1). I rolled a 4, so I add my Constitution modifier to bring me up to 5, adding that to my original 8 HP means I have 13 HP at level 2.
+      <br>
+      Every class has different <span class="emph">features</span> at every level. These features are noted in the Player's Handbook, organized by level. Features make your character unique, so if you don't know them by heart it would be a good idea to write these down. If you haven't already, make sure you write down any features your <a href="Race.html">class</a> has well.
+      </p>
+    </div>
+
+    <div class="col-lg">
+      <img src="../images/BardPage.png">
+    </div>
+
+    <div class="col-lg">
+      <img src="../images/BardTable.jpg">
+    </div>
+  </div>
+
+
+<div class="row">
+  <!-- Table to keep information organized and easy to read. -->
+  <div class="col-lg-4">
+    <img class="d-none d-lg-block" src="../images/BattleMaster.jpg">
+  </div>
+
+  <div class="col">
+    <h2 >12 Classes to choose from...</h2>
+
+    <table style="margin: 25px 25px 25px 25px;" class="classTypes">
+      <tr>
+        <th style="width: 10%;">Class</th>
+        <th style="width: 10%;">Primary Abilities</th>
+        <th style="width: 20%;">Notable Features</th>
+
+        <th>Playstyle</th>
+      </tr>
+      <tr>
+        <td>Barbarian</td>
+        <td>Strength, Constitution</td>
+        <td>Battle Rage, Tons of Damage, Super Tank</td>
+        <td>Barbarians charge into the heat of battle, dealing the most early level damage while also soaking enemy damage with their rage. Later levels see other classes catching up slightly, but barbarians still end up contributing a majority of the party's damage. A simple, but fun class, making it my number 1 choice for beginners.
+        </td>
+      </tr>
+      <tr>
+        <td>Bard</td>
+        <td>Charisma, Dexterity</td>
+        <td>Expertise, Spellcasting, Bardic Inspiration</td>
+        <td>For those of you who love to seduce the NPCs, Bards are one of the most freeform classes, allowing you to customize heavily, ranging from a silvertounged spellcaster to a swift-footed fencer. Bards can add insane modifiers to their skill checks, allowing them to be one of the most powerful roleplayers in the group. In late game, you could potentially inspire your teammates to also have insane rolls, with up to a +12 bonus to their roll. There's never a dull moment with a Bard in the group.
+        </td>
+      </tr>
+      <tr>
+        <td>Cleric</td>
+        <td>Wisdom, Charisma</td>
+        <td>Tankiness, Channel Divinity, Powerful Spells</td>
+        <td>Granted power by some higher being, Clerics have access to powerful spells and special abilities that can be rightfully called miracles. Cleric spells are very versatile, and with access to the entire spell list, a prepared Cleric is a great ally. For those of you who need some guidance while roleplaying, a Cleric could help connect you with the world, as well as give the DM a chance to guide you in game.
+        </td>
+      </tr>
+
+      <tr>
+        <td>Druid</td>
+        <td>Intelligence, Wisdom</td>
+        <td>Wild Shape, Unique Spells, Versatile</td>
+        <td>Druids are great at introducing unique solutions to otherwise difficult problems. Wild Shape is a severely underrated skill, and it's a shame that early on Druids have such limited use of it. Druid spells allow for heavy customization to create unique builds known to few. Druids can be very complicated however, as there is a lot of theorycrafting involved and Druids aren't the strongest combattants. Unless you really want to be a hawk, I would steer clear of this class for now.
+        </td>
+      </tr>
+
+      <tr>
+        <td>Fighter</td>
+        <td>Strength, Constitution</td>
+        <td>Fighting Styles, Extra Attack, Versatile Combat</td>
+        <td>If you are looking for a way to spice up combat, these next two classes are definitely for you. Fighters don't deal as much damage as Barbarians, but Fighters shine in their ability to turn any battlefield into their playground. With their vast proficiency in weapons, and their subclasses inspired by specific fighting styles, Fighters have a plethora of combat choices from turn to turn. Fighters can be Strength or Dexterity based, so feel free to pick and choose what kind of weapons you want to use.</td>
+      </tr>
+
+      <tr>
+        <td>Monk</td>
+        <td>Strength, Dexterirty, Wisdom</td>
+        <td>Versatile Combat, Multiple Attacks, Stylish</td>
+        <td>Monks are warriors who trained for years on end, seeking a perfected body and mind. Their most notable feature is their ability to dish out several attacks at once, while stunning or disarming their enemy. Monks are very stylish in everything they do, perhaps even more than Fighters. This class is for those who want to do crazy maneuvers during combat, yet somehow still be useful.</td>
+      </tr>
+
+      <tr>
+        <td>Paladin</td>
+        <td>Strength, Charisma</td>
+        <td>Divine Smite, Tankiness, Enchantments</td>
+        <td>Paladins can be loosely defined as what would happen if a Cleric and a Fighter had a baby. While Paladins do have aspects of both Fighters and Clerics, their defining feature comes from their ability to enchant their weapon and enhance their equipment. The ability to enchant an item allows you to fight a variety of different creatures, as many higher level monsters have resistances to most damage types. The ability to prepare spells also give you the versatility to take on any encounter that other damage dealers would have a hard time tackling.</td>
+      </tr>
+
+      <tr>
+        <td>Ranger</td>
+        <td>Dexterity, Wisdom</td>
+        <td>Survival Skills, Specialized Hunter</td>
+        <td>Rangers are specialized classes that are useful in exploration heavy campaigns. The ability to not get lost as well as not be impeded by terrain is a quality of life improvement that players often don't understand. However, the only reason you would really want to play a Ranger is for roleplaying purposes (maybe you reaaaaalllly want a pet bear but your DM keeps saying no), and while I would love for the Ranger to be a useful class in general campaigns, they usually are used as NPCs hunting down a specific beast.</td>
+      </tr>
+
+      <tr>
+        <td>Rogue</td>
+        <td>Dexterity, Intelligence</td>
+        <td>Sneak attack, Thieving, Sleuthing</td>
+        <td>The Rogue has become the iconic class of DND, and for good reason. No matter what you are doing, as a Rogue you are bound to get absurdly high numbers. Sneak attack is one of the most powerful combat tools, and the addition of Expertise allows you to roll exceptional numbers on your area of (for lack of a better term) expertise. I recommend Rogue because it is generally straightforward and pretty intuitive to build.</td>
+      </tr>
+
+      <tr>
+        <td>Sorcerer</td>
+        <td>Charisma</td>
+        <td>Fireball!, Versatile, Metamagic</td>
+        <td>Out of the three spellcasters, the Sorcerer is probably the most freeform and easiest to grasp. While not as frail as a Wizard, a Sorcerer certainly has to be worried about being instakilled during combat, as it is quite common. If you manage to live to the later stages of a campaign as a Sorcerer however, you are open to dealing loads of damage (most of the time with the signature Fireball). Metamagic also allows you shape your spells in ways other spellcasters could not. I definitely would not recommend the spellcasting classes to a beginner, but hey, it's your character.</td>
+      </tr>
+
+      <tr>
+        <td>Warlock</td>
+        <td>Charisma, Wisdom</td>
+        <td>Eldritch Blast!, Roleplaying, Complex</td>
+        <td>The Abyss has many powerful creatures, and some of them are willing to share their power with you (for a price). Warlocks are thematically the coolest class you can choose, and most of my coolest stories from my DND adventures start with a Warlocks. Warlocks are very complex, which can be a good or a bad thing depending on your patience. If you are willing to put the effort into creating a killer backstory and roleplaying, a Warlock is the way to go.</td>
+      </tr>
+
+      <tr>
+        <td>Wizard</td>
+        <td>Intelligence, Wisdom</td>
+        <td>Powerful Late Game, Tons of Spells, Specialized Magic</td>
+        <td>The Wizard is your typical old fart who wants to write everything down in a book so that they may remember it. Wizards really shine if the player seeks out knowledge like a real Wizard would. With nearly unlimited access to any spell they want, a Wizard is free to mix and match any variety of spells they wish. This can be REALLY complex, so I would, once again, advise steering clear of this class, but if you thirst for knowledge, a Wizard might be the right choice for you.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- Footer for copyright and email information -->
+<footer>
+  <p>DKT Studios</p>
+  <p><a href="mailto:dialekt.esp@gmail.com">dialekt.esp@gmail.com</a></p>
+  <p>Copyright &#169 @2020 DKT Studios All Rights Reserved</p>
+</footer>
+
+
+
+</div>
+
+</body>
+</html>	
