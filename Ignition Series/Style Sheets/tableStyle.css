@@ -1,0 +1,38 @@
+<style>
+<!-- I don't know why, but I need open and close brackets at the beginning for the style sheet to be read properly -->
+{
+}
+
+ caption {
+  color:red;
+  font-size:38px;
+ }
+
+ table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 80%;
+
+ }
+ 
+ th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+ }
+
+ #NA {
+  background-color: #dadaff
+ }
+
+ #EMEA {
+  background-color: #d0ffc7;
+ }
+
+ #icon {
+  width:35px;
+  height:35px;
+ }
+
+
+</style>

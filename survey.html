@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body>
+
+<img src="val.jpg" alt="Valorant banner">
+<p>This is a general survey for Valorant statistics and eSports. This form will ask for your personal opinion on your skill and ability to improve. Fill in answers to the best of your ability.</p>
+<br>
+<br>
+
+<fieldset>
+<form>
+Enter today's date:
+ <input type="date" name="today" min="2020-01-01" max="2020-12-31" required><br>
+</fieldset>
+<br>
+
+<fieldset>
+<label for="rank">What rank are you?</label>
+<select id="rank" name="rank">
+ <option value="iron">Iron</option>
+ <option value="bronze">Bronze</option>
+ <option value="silver">Silver</option>
+ <option value="gold">Gold</option>
+ <option value="platinum">Platinum</option>
+ <option value="diamond">Diamond</option>
+ <option value="immortal">Immortal</option>
+ <option value="radiant">Radiant</option>
+</select>
+
+<p>What do you feel is preventing you from ranking up the most?</p>
+<form>
+ <input type="text" id="input" name="input" minlength="1" maxlength="30"><br>
+</fieldset>
+<br>
+
+
+<fieldset>
+ How many days a week do you play Valorant?
+ <input type="number" name="points" min="0" max="7" step="1" value="0">
+</fieldset>
+<br>
+
+<fieldset>
+<p>How are you involved with Valorant? Check all that apply</p>
+ <input type="checkbox" id="play" name="play" value="Play">
+ <label for="play"> I play Valorant</label><br>
+ <input type="checkbox" id="watch" name="watch" value="Watch">
+ <label for="watch"> I watch Valorant streams</label><br>
+ <input type="checkbox" id="team" name="team" value="Team">
+ <label for="team"> I play on a competitive Valorant team</label><br>
+ <input type="checkbox" id="coach" name="coach" value="Coach">
+ <label for="coach"> I am a coach for a Valorant team</label><br>
+ <input type="checkbox" id="eSports" name="eSports" value="eSports">
+ <label for="eSports"> I follow professional Valorant eSports</label><br>
+</fieldset>
+<br>
+
+<fieldset>
+<p>Do you use <a href="https://liquipedia.net/valorant/Main_Page" target="_blank">liquipedia</a> for Valorant eSports?
+ <br>
+ <input type="radio" id="yes" name="yn" value="yes" required>
+ <label for="yes">Yes</label><br>
+ <input type="radio" id="no" name="yn" value="no" required>
+ <label for="no">No</label><br>
+</fieldset>
+<br>
+
+<fieldset>
+<p>Any additional comments here: </p>
+<textarea name="comments" rows="10" cols="50">
+ Additional comments here...
+</textarea>
+</fieldset>
+<br>
+
+<fieldset>
+<p>Post your email here to subscribe to regular updates on Valorant news!</p>
+ E-mail:
+ <input type="email" name="email">
+</fieldset>
+<br>
+
+<fieldset>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</fieldset>
+
+</form>
+
+</body>
+</html>
